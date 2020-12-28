@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "357529f5bdd479d9ed761e85a6edf253",
+        "name": "oxidizer-wood-150-0-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/oxidizer-wood-150-0-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "M0AvK8XG7",
+            "type": "RECTANGLE",
+            "tags": [
+                "Oxidizer"
+            ],
+            "boundingBox": {
+                "height": 1346.4935064935064,
+                "width": 1286.6493506493507,
+                "left": 1939.3246753246754,
+                "top": 1009.8701298701299
+            },
+            "points": [
+                {
+                    "x": 1939.3246753246754,
+                    "y": 1009.8701298701299
+                },
+                {
+                    "x": 3225.974025974026,
+                    "y": 1009.8701298701299
+                },
+                {
+                    "x": 3225.974025974026,
+                    "y": 2356.3636363636365
+                },
+                {
+                    "x": 1939.3246753246754,
+                    "y": 2356.3636363636365
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

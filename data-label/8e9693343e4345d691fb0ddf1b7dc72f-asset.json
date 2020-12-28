@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "8e9693343e4345d691fb0ddf1b7dc72f",
+        "name": "combustible-150-45-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/combustible-150-45-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "TvNLJgnGi",
+            "type": "RECTANGLE",
+            "tags": [
+                "Combustible"
+            ],
+            "boundingBox": {
+                "height": 1282.909090909091,
+                "width": 1036.051948051948,
+                "left": 2036.5714285714284,
+                "top": 957.5064935064935
+            },
+            "points": [
+                {
+                    "x": 2036.5714285714284,
+                    "y": 957.5064935064935
+                },
+                {
+                    "x": 3072.6233766233768,
+                    "y": 957.5064935064935
+                },
+                {
+                    "x": 3072.6233766233768,
+                    "y": 2240.4155844155844
+                },
+                {
+                    "x": 2036.5714285714284,
+                    "y": 2240.4155844155844
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "bd5fd5faa44d6c7499a49086abdadb4a",
+        "name": "organic-peroxide-150-0-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/organic-peroxide-150-0-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "jUG2OpaO4",
+            "type": "RECTANGLE",
+            "tags": [
+                "OrganicPeroxide"
+            ],
+            "boundingBox": {
+                "height": 1600.8311688311687,
+                "width": 1612.051948051948,
+                "left": 918.2337662337662,
+                "top": 1511.064935064935
+            },
+            "points": [
+                {
+                    "x": 918.2337662337662,
+                    "y": 1511.064935064935
+                },
+                {
+                    "x": 2530.285714285714,
+                    "y": 1511.064935064935
+                },
+                {
+                    "x": 2530.285714285714,
+                    "y": 3111.896103896104
+                },
+                {
+                    "x": 918.2337662337662,
+                    "y": 3111.896103896104
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

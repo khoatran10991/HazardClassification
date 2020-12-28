@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "8ed879b809e450a885002379d0b5f20b",
+        "name": "explosive-sunlight-150-negative-45-c.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/explosive-sunlight-150-negative-45-c.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "TWh-71arY",
+            "type": "RECTANGLE",
+            "tags": [
+                "Explosive"
+            ],
+            "boundingBox": {
+                "height": 1264.2077922077922,
+                "width": 867.7402597402597,
+                "left": 2937.974025974026,
+                "top": 553.5584415584416
+            },
+            "points": [
+                {
+                    "x": 2937.974025974026,
+                    "y": 553.5584415584416
+                },
+                {
+                    "x": 3805.714285714286,
+                    "y": 553.5584415584416
+                },
+                {
+                    "x": 3805.714285714286,
+                    "y": 1817.7662337662337
+                },
+                {
+                    "x": 2937.974025974026,
+                    "y": 1817.7662337662337
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

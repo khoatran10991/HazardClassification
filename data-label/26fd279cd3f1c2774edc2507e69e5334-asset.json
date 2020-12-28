@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "26fd279cd3f1c2774edc2507e69e5334",
+        "name": "flamable-liquid-150-0-b.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/flamable-liquid-150-0-b.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "FZPhi7gDz",
+            "type": "RECTANGLE",
+            "tags": [
+                "FlamableLiquid"
+            ],
+            "boundingBox": {
+                "height": 1589.6103896103896,
+                "width": 1597.090909090909,
+                "left": 1086.5454545454545,
+                "top": 347.84415584415586
+            },
+            "points": [
+                {
+                    "x": 1086.5454545454545,
+                    "y": 347.84415584415586
+                },
+                {
+                    "x": 2683.6363636363635,
+                    "y": 347.84415584415586
+                },
+                {
+                    "x": 2683.6363636363635,
+                    "y": 1937.4545454545455
+                },
+                {
+                    "x": 1086.5454545454545,
+                    "y": 1937.4545454545455
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

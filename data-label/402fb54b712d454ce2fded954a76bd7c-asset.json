@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "402fb54b712d454ce2fded954a76bd7c",
+        "name": "radioactive-wood-150-negative-30-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/radioactive-wood-150-negative-30-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "5lMU3TAuf",
+            "type": "RECTANGLE",
+            "tags": [
+                "RadioActive"
+            ],
+            "boundingBox": {
+                "height": 1279.168831168831,
+                "width": 1249.2467532467533,
+                "left": 2844.4675324675322,
+                "top": 1600.8311688311687
+            },
+            "points": [
+                {
+                    "x": 2844.4675324675322,
+                    "y": 1600.8311688311687
+                },
+                {
+                    "x": 4093.714285714286,
+                    "y": 1600.8311688311687
+                },
+                {
+                    "x": 4093.714285714286,
+                    "y": 2880
+                },
+                {
+                    "x": 2844.4675324675322,
+                    "y": 2880
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "c946f692982eb7845fff5c9b77538c3e",
+        "name": "combustible-sunlight-150-45-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/combustible-sunlight-150-45-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "K1lhn2IiI",
+            "type": "RECTANGLE",
+            "tags": [
+                "Combustible"
+            ],
+            "boundingBox": {
+                "height": 1735.4805194805194,
+                "width": 1282.909090909091,
+                "left": 2878.12987012987,
+                "top": 1387.6363636363635
+            },
+            "points": [
+                {
+                    "x": 2878.12987012987,
+                    "y": 1387.6363636363635
+                },
+                {
+                    "x": 4161.038961038961,
+                    "y": 1387.6363636363635
+                },
+                {
+                    "x": 4161.038961038961,
+                    "y": 3123.116883116883
+                },
+                {
+                    "x": 2878.12987012987,
+                    "y": 3123.116883116883
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

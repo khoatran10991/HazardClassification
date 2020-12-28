@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "0c946d1c12e63f446364ba0f3f08e8aa",
+        "name": "oxidizer-sunlight-150-0-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/oxidizer-sunlight-150-0-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ES0ArIpFd",
+            "type": "RECTANGLE",
+            "tags": [
+                "Oxidizer"
+            ],
+            "boundingBox": {
+                "height": 1181.922077922078,
+                "width": 1200.6233766233765,
+                "left": 2025.3506493506493,
+                "top": 1095.8961038961038
+            },
+            "points": [
+                {
+                    "x": 2025.3506493506493,
+                    "y": 1095.8961038961038
+                },
+                {
+                    "x": 3225.974025974026,
+                    "y": 1095.8961038961038
+                },
+                {
+                    "x": 3225.974025974026,
+                    "y": 2277.818181818182
+                },
+                {
+                    "x": 2025.3506493506493,
+                    "y": 2277.818181818182
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

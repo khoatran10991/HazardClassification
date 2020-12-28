@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "985f04f38b6a59aea9435f8e47cfa3e4",
+        "name": "flamable-liquid-sunlight-150-45-c.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/flamable-liquid-sunlight-150-45-c.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "7K8vslszl",
+            "type": "RECTANGLE",
+            "tags": [
+                "FlamableLiquid"
+            ],
+            "boundingBox": {
+                "height": 1668.155844155844,
+                "width": 1204.3636363636363,
+                "left": 2870.6493506493507,
+                "top": 243.11688311688312
+            },
+            "points": [
+                {
+                    "x": 2870.6493506493507,
+                    "y": 243.11688311688312
+                },
+                {
+                    "x": 4075.0129870129867,
+                    "y": 243.11688311688312
+                },
+                {
+                    "x": 4075.0129870129867,
+                    "y": 1911.2727272727273
+                },
+                {
+                    "x": 2870.6493506493507,
+                    "y": 1911.2727272727273
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2b815d8fcc0710d31fa1cfddad9e767e",
+        "name": "combustible-sunlight-150-negative-30-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/combustible-sunlight-150-negative-30-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "t-86DhWoe",
+            "type": "RECTANGLE",
+            "tags": [
+                "Combustible"
+            ],
+            "boundingBox": {
+                "height": 1406.3376623376623,
+                "width": 1245.5064935064934,
+                "left": 1052.8831168831168,
+                "top": 1548.4675324675325
+            },
+            "points": [
+                {
+                    "x": 1052.8831168831168,
+                    "y": 1548.4675324675325
+                },
+                {
+                    "x": 2298.3896103896104,
+                    "y": 1548.4675324675325
+                },
+                {
+                    "x": 2298.3896103896104,
+                    "y": 2954.805194805195
+                },
+                {
+                    "x": 1052.8831168831168,
+                    "y": 2954.805194805195
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

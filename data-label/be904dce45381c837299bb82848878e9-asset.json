@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "be904dce45381c837299bb82848878e9",
+        "name": "oxidizer-150-45-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/oxidizer-150-45-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "LQELe3rG5",
+            "type": "RECTANGLE",
+            "tags": [
+                "Oxidizer"
+            ],
+            "boundingBox": {
+                "height": 1279.168831168831,
+                "width": 834.077922077922,
+                "left": 2197.402597402597,
+                "top": 1196.8831168831168
+            },
+            "points": [
+                {
+                    "x": 2197.402597402597,
+                    "y": 1196.8831168831168
+                },
+                {
+                    "x": 3031.4805194805194,
+                    "y": 1196.8831168831168
+                },
+                {
+                    "x": 3031.4805194805194,
+                    "y": 2476.051948051948
+                },
+                {
+                    "x": 2197.402597402597,
+                    "y": 2476.051948051948
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

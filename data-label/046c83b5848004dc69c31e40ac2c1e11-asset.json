@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "046c83b5848004dc69c31e40ac2c1e11",
+        "name": "organic-peroxide-wood-150-negative-30-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/organic-peroxide-wood-150-negative-30-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "wHqmfljmR",
+            "type": "RECTANGLE",
+            "tags": [
+                "OrganicPeroxide"
+            ],
+            "boundingBox": {
+                "height": 1286.6493506493507,
+                "width": 1170.7012987012986,
+                "left": 2859.4285714285716,
+                "top": 1701.8181818181818
+            },
+            "points": [
+                {
+                    "x": 2859.4285714285716,
+                    "y": 1701.8181818181818
+                },
+                {
+                    "x": 4030.12987012987,
+                    "y": 1701.8181818181818
+                },
+                {
+                    "x": 4030.12987012987,
+                    "y": 2988.4675324675322
+                },
+                {
+                    "x": 2859.4285714285716,
+                    "y": 2988.4675324675322
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

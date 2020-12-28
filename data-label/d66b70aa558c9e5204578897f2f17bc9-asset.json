@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "d66b70aa558c9e5204578897f2f17bc9",
+        "name": "organic-peroxide-sunlight-150-negative-30-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/organic-peroxide-sunlight-150-negative-30-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "cpShxy2_t",
+            "type": "RECTANGLE",
+            "tags": [
+                "OrganicPeroxide"
+            ],
+            "boundingBox": {
+                "height": 1331.5324675324675,
+                "width": 1189.4025974025974,
+                "left": 1935.5844155844156,
+                "top": 1021.0909090909091
+            },
+            "points": [
+                {
+                    "x": 1935.5844155844156,
+                    "y": 1021.0909090909091
+                },
+                {
+                    "x": 3124.987012987013,
+                    "y": 1021.0909090909091
+                },
+                {
+                    "x": 3124.987012987013,
+                    "y": 2352.6233766233768
+                },
+                {
+                    "x": 1935.5844155844156,
+                    "y": 2352.6233766233768
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

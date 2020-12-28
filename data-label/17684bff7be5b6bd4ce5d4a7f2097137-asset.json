@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "17684bff7be5b6bd4ce5d4a7f2097137",
+        "name": "combustible-150-negative-30-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/combustible-150-negative-30-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "5yQfY97iu",
+            "type": "RECTANGLE",
+            "tags": [
+                "Combustible"
+            ],
+            "boundingBox": {
+                "height": 1440,
+                "width": 1166.9610389610389,
+                "left": 2818.285714285714,
+                "top": 1664.4155844155844
+            },
+            "points": [
+                {
+                    "x": 2818.285714285714,
+                    "y": 1664.4155844155844
+                },
+                {
+                    "x": 3985.246753246753,
+                    "y": 1664.4155844155844
+                },
+                {
+                    "x": 3985.246753246753,
+                    "y": 3104.4155844155844
+                },
+                {
+                    "x": 2818.285714285714,
+                    "y": 3104.4155844155844
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "967f10fbebf2c9c2ac514313664bd10f",
+        "name": "dangerous-when-wet-wood-150-negative-45-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/dangerous-when-wet-wood-150-negative-45-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "xIQA8rzeK",
+            "type": "RECTANGLE",
+            "tags": [
+                "DangerousWhenWet"
+            ],
+            "boundingBox": {
+                "height": 1391.3766233766235,
+                "width": 1043.5324675324675,
+                "left": 2092.6753246753246,
+                "top": 905.1428571428571
+            },
+            "points": [
+                {
+                    "x": 2092.6753246753246,
+                    "y": 905.1428571428571
+                },
+                {
+                    "x": 3136.207792207792,
+                    "y": 905.1428571428571
+                },
+                {
+                    "x": 3136.207792207792,
+                    "y": 2296.5194805194806
+                },
+                {
+                    "x": 2092.6753246753246,
+                    "y": 2296.5194805194806
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

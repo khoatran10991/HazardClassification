@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "86d43926d7e4a638a8d49cdfa8f2bdaf",
+        "name": "dangerous-when-wet-sunlight-150-30-c.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/dangerous-when-wet-sunlight-150-30-c.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "FNrO9PE0h",
+            "type": "RECTANGLE",
+            "tags": [
+                "DangerousWhenWet"
+            ],
+            "boundingBox": {
+                "height": 1376.4155844155844,
+                "width": 1241.7662337662337,
+                "left": 2874.3896103896104,
+                "top": 561.038961038961
+            },
+            "points": [
+                {
+                    "x": 2874.3896103896104,
+                    "y": 561.038961038961
+                },
+                {
+                    "x": 4116.155844155844,
+                    "y": 561.038961038961
+                },
+                {
+                    "x": 4116.155844155844,
+                    "y": 1937.4545454545455
+                },
+                {
+                    "x": 2874.3896103896104,
+                    "y": 1937.4545454545455
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

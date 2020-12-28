@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "e766375a56136a4daba3905717c70dcd",
+        "name": "radioactive-sunlight-150-negative-45-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/radioactive-sunlight-150-negative-45-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "CfGfrOIyk",
+            "type": "RECTANGLE",
+            "tags": [
+                "RadioActive"
+            ],
+            "boundingBox": {
+                "height": 1256.7272727272727,
+                "width": 976.2077922077922,
+                "left": 1284.7792207792209,
+                "top": 1604.5714285714284
+            },
+            "points": [
+                {
+                    "x": 1284.7792207792209,
+                    "y": 1604.5714285714284
+                },
+                {
+                    "x": 2260.987012987013,
+                    "y": 1604.5714285714284
+                },
+                {
+                    "x": 2260.987012987013,
+                    "y": 2861.2987012987014
+                },
+                {
+                    "x": 1284.7792207792209,
+                    "y": 2861.2987012987014
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "fcd5cba37543ba4175609af79c7a8a56",
+        "name": "organic-peroxide-wood-150-45-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/organic-peroxide-wood-150-45-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ToCeD3mEl",
+            "type": "RECTANGLE",
+            "tags": [
+                "OrganicPeroxide"
+            ],
+            "boundingBox": {
+                "height": 1372.6753246753246,
+                "width": 1043.5324675324675,
+                "left": 1333.4025974025974,
+                "top": 1653.1948051948052
+            },
+            "points": [
+                {
+                    "x": 1333.4025974025974,
+                    "y": 1653.1948051948052
+                },
+                {
+                    "x": 2376.935064935065,
+                    "y": 1653.1948051948052
+                },
+                {
+                    "x": 2376.935064935065,
+                    "y": 3025.87012987013
+                },
+                {
+                    "x": 1333.4025974025974,
+                    "y": 3025.87012987013
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

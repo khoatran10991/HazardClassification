@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "c8967aa54f5e212b79f6ece0455f61aa",
+        "name": "combustible-wood-150-negative-45-c.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/combustible-wood-150-negative-45-c.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "RF_nSStXF",
+            "type": "RECTANGLE",
+            "tags": [
+                "Combustible"
+            ],
+            "boundingBox": {
+                "height": 1425.038961038961,
+                "width": 1181.922077922078,
+                "left": 2743.4805194805194,
+                "top": 561.038961038961
+            },
+            "points": [
+                {
+                    "x": 2743.4805194805194,
+                    "y": 561.038961038961
+                },
+                {
+                    "x": 3925.402597402597,
+                    "y": 561.038961038961
+                },
+                {
+                    "x": 3925.402597402597,
+                    "y": 1986.077922077922
+                },
+                {
+                    "x": 2743.4805194805194,
+                    "y": 1986.077922077922
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

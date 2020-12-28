@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "50e9f276e624ab73d939f9072cdb347d",
+        "name": "flamable-liquid-wood-150-30-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/flamable-liquid-wood-150-30-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "GeYvEJkkv",
+            "type": "RECTANGLE",
+            "tags": [
+                "FlamableLiquid"
+            ],
+            "boundingBox": {
+                "height": 1353.9740259740258,
+                "width": 1271.6883116883116,
+                "left": 2747.220779220779,
+                "top": 1619.5324675324675
+            },
+            "points": [
+                {
+                    "x": 2747.220779220779,
+                    "y": 1619.5324675324675
+                },
+                {
+                    "x": 4018.909090909091,
+                    "y": 1619.5324675324675
+                },
+                {
+                    "x": 4018.909090909091,
+                    "y": 2973.5064935064934
+                },
+                {
+                    "x": 2747.220779220779,
+                    "y": 2973.5064935064934
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

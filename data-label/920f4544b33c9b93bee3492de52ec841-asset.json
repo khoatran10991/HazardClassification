@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "920f4544b33c9b93bee3492de52ec841",
+        "name": "organic-peroxide-sunlight-150-0-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/organic-peroxide-sunlight-150-0-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "OwPnKGXe-",
+            "type": "RECTANGLE",
+            "tags": [
+                "OrganicPeroxide"
+            ],
+            "boundingBox": {
+                "height": 1245.5064935064934,
+                "width": 1249.2467532467533,
+                "left": 1123.948051948052,
+                "top": 1645.7142857142858
+            },
+            "points": [
+                {
+                    "x": 1123.948051948052,
+                    "y": 1645.7142857142858
+                },
+                {
+                    "x": 2373.194805194805,
+                    "y": 1645.7142857142858
+                },
+                {
+                    "x": 2373.194805194805,
+                    "y": 2891.220779220779
+                },
+                {
+                    "x": 1123.948051948052,
+                    "y": 2891.220779220779
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

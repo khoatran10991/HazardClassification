@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "6e8a0d04e316b2461325226b3b91f813",
+        "name": "non-flamable-gas-sunlight-150-0-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/non-flamable-gas-sunlight-150-0-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ag_j6XXM9",
+            "type": "RECTANGLE",
+            "tags": [
+                "NonFlamableGas"
+            ],
+            "boundingBox": {
+                "height": 1350.2337662337661,
+                "width": 1350.2337662337661,
+                "left": 1886.9610389610389,
+                "top": 961.2467532467532
+            },
+            "points": [
+                {
+                    "x": 1886.9610389610389,
+                    "y": 961.2467532467532
+                },
+                {
+                    "x": 3237.194805194805,
+                    "y": 961.2467532467532
+                },
+                {
+                    "x": 3237.194805194805,
+                    "y": 2311.4805194805194
+                },
+                {
+                    "x": 1886.9610389610389,
+                    "y": 2311.4805194805194
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

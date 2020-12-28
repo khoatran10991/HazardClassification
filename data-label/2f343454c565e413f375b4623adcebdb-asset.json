@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2f343454c565e413f375b4623adcebdb",
+        "name": "radioactive-150-0-a.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/radioactive-150-0-a.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "DbPjmDTEk",
+            "type": "RECTANGLE",
+            "tags": [
+                "RadioActive"
+            ],
+            "boundingBox": {
+                "height": 1698.077922077922,
+                "width": 1664.4155844155844,
+                "left": 1789.7142857142858,
+                "top": 837.8181818181818
+            },
+            "points": [
+                {
+                    "x": 1789.7142857142858,
+                    "y": 837.8181818181818
+                },
+                {
+                    "x": 3454.12987012987,
+                    "y": 837.8181818181818
+                },
+                {
+                    "x": 3454.12987012987,
+                    "y": 2535.896103896104
+                },
+                {
+                    "x": 1789.7142857142858,
+                    "y": 2535.896103896104
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

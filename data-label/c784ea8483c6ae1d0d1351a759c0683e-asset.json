@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "c784ea8483c6ae1d0d1351a759c0683e",
+        "name": "non-flamable-gas-150-0-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/non-flamable-gas-150-0-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "2Re2FAsss",
+            "type": "RECTANGLE",
+            "tags": [
+                "NonFlamableGas"
+            ],
+            "boundingBox": {
+                "height": 1597.090909090909,
+                "width": 1567.168831168831,
+                "left": 948.1558441558441,
+                "top": 1507.3246753246754
+            },
+            "points": [
+                {
+                    "x": 948.1558441558441,
+                    "y": 1507.3246753246754
+                },
+                {
+                    "x": 2515.3246753246754,
+                    "y": 1507.3246753246754
+                },
+                {
+                    "x": 2515.3246753246754,
+                    "y": 3104.4155844155844
+                },
+                {
+                    "x": 948.1558441558441,
+                    "y": 3104.4155844155844
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

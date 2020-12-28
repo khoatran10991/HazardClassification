@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "31135f580306a4992224d48756007460",
+        "name": "explosive-150-negative-45-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/explosive-150-negative-45-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "7E16-9C2A",
+            "type": "RECTANGLE",
+            "tags": [
+                "Explosive"
+            ],
+            "boundingBox": {
+                "height": 1499.844155844156,
+                "width": 994.9090909090909,
+                "left": 2866.909090909091,
+                "top": 1477.4025974025974
+            },
+            "points": [
+                {
+                    "x": 2866.909090909091,
+                    "y": 1477.4025974025974
+                },
+                {
+                    "x": 3861.8181818181815,
+                    "y": 1477.4025974025974
+                },
+                {
+                    "x": 3861.8181818181815,
+                    "y": 2977.246753246753
+                },
+                {
+                    "x": 2866.909090909091,
+                    "y": 2977.246753246753
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "89350869a747b88ab4c60299738cafed",
+        "name": "non-flamable-gas-wood-150-negative-45-b.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/non-flamable-gas-wood-150-negative-45-b.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "2kSF40ccr",
+            "type": "RECTANGLE",
+            "tags": [
+                "NonFlamableGas"
+            ],
+            "boundingBox": {
+                "height": 1395.1168831168832,
+                "width": 1200.6233766233765,
+                "left": 880.8311688311688,
+                "top": 504.93506493506493
+            },
+            "points": [
+                {
+                    "x": 880.8311688311688,
+                    "y": 504.93506493506493
+                },
+                {
+                    "x": 2081.4545454545455,
+                    "y": 504.93506493506493
+                },
+                {
+                    "x": 2081.4545454545455,
+                    "y": 1900.051948051948
+                },
+                {
+                    "x": 880.8311688311688,
+                    "y": 1900.051948051948
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

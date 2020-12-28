@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "24ca596eef57bdccff0a76f8b76d5fd9",
+        "name": "explosive-wood-150-0-e.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/explosive-wood-150-0-e.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "vM6dvphW6",
+            "type": "RECTANGLE",
+            "tags": [
+                "Explosive"
+            ],
+            "boundingBox": {
+                "height": 1256.7272727272727,
+                "width": 1241.7662337662337,
+                "left": 2721.038961038961,
+                "top": 1668.155844155844
+            },
+            "points": [
+                {
+                    "x": 2721.038961038961,
+                    "y": 1668.155844155844
+                },
+                {
+                    "x": 3962.805194805195,
+                    "y": 1668.155844155844
+                },
+                {
+                    "x": 3962.805194805195,
+                    "y": 2924.8831168831166
+                },
+                {
+                    "x": 2721.038961038961,
+                    "y": 2924.8831168831166
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

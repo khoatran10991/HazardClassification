@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "f4af1133d548e8303fb745a589fd10b3",
+        "name": "radioactive-wood-150-0-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/radioactive-wood-150-0-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "wOiHJRXbj",
+            "type": "RECTANGLE",
+            "tags": [
+                "RadioActive"
+            ],
+            "boundingBox": {
+                "height": 1312.8311688311687,
+                "width": 1286.6493506493507,
+                "left": 1037.922077922078,
+                "top": 1353.9740259740258
+            },
+            "points": [
+                {
+                    "x": 1037.922077922078,
+                    "y": 1353.9740259740258
+                },
+                {
+                    "x": 2324.5714285714284,
+                    "y": 1353.9740259740258
+                },
+                {
+                    "x": 2324.5714285714284,
+                    "y": 2666.805194805195
+                },
+                {
+                    "x": 1037.922077922078,
+                    "y": 2666.805194805195
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "3c7282c384e04c67d2be207fa541cd74",
+        "name": "explosive-150-30-d.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/explosive-150-30-d.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "STbG4k1oa",
+            "type": "RECTANGLE",
+            "tags": [
+                "Explosive"
+            ],
+            "boundingBox": {
+                "height": 1391.3766233766235,
+                "width": 1204.3636363636363,
+                "left": 1172.5714285714284,
+                "top": 1511.064935064935
+            },
+            "points": [
+                {
+                    "x": 1172.5714285714284,
+                    "y": 1511.064935064935
+                },
+                {
+                    "x": 2376.935064935065,
+                    "y": 1511.064935064935
+                },
+                {
+                    "x": 2376.935064935065,
+                    "y": 2902.4415584415583
+                },
+                {
+                    "x": 1172.5714285714284,
+                    "y": 2902.4415584415583
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

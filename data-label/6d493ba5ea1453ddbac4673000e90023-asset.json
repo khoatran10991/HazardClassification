@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "6d493ba5ea1453ddbac4673000e90023",
+        "name": "dangerous-when-wet-150-negative-45-c.jpg",
+        "path": "file:D:/Document%20&%20File/LUAN%20VAN%20HAZARD/Code/dev/HazardClassification/images/dangerous-when-wet-150-negative-45-c.jpg",
+        "size": {
+            "width": 5184,
+            "height": 3456
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "9TTqsCsBk",
+            "type": "RECTANGLE",
+            "tags": [
+                "DangerousWhenWet"
+            ],
+            "boundingBox": {
+                "height": 1481.142857142857,
+                "width": 923.8441558441558,
+                "left": 2960.4155844155844,
+                "top": 381.5064935064935
+            },
+            "points": [
+                {
+                    "x": 2960.4155844155844,
+                    "y": 381.5064935064935
+                },
+                {
+                    "x": 3884.2597402597403,
+                    "y": 381.5064935064935
+                },
+                {
+                    "x": 3884.2597402597403,
+                    "y": 1862.6493506493507
+                },
+                {
+                    "x": 2960.4155844155844,
+                    "y": 1862.6493506493507
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
