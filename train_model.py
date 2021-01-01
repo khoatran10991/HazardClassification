@@ -16,6 +16,7 @@ from keras.models import Model
 from keras.layers import Dense, Dropout, Input, Flatten
 from generator import DataGenerator
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 
 def load_data(path_image):
@@ -128,6 +129,21 @@ def train_model(model, baseModel, X_train, y_train, X_test=None, y_test=None, ar
             H = model.fit(aug_train, validation_data=aug_test, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
         else:
             H = model.fit(aug_train, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
+
+        # plot the training loss and accuracy
+        print("PLOT MODEL HISTORY...")
+        N = np.arange(0, args.epoch_step_2)
+        plt.style.use("ggplot")
+        plt.figure()
+        plt.plot(N, H.history["loss"], label="train_loss")
+        plt.plot(N, H.history["val_loss"], label="val_loss")
+        plt.plot(N, H.history["accuracy"], label="train_acc")
+        plt.plot(N, H.history["val_accuracy"], label="val_acc")
+        plt.title("Training Loss and Accuracy on Dataset")
+        plt.xlabel("Epoch #")
+        plt.ylabel("Loss/Accuracy")
+        plt.legend(loc="lower left")
+        plt.savefig("plot.png")
     
     print("FINISH TRAINING MODEL...")
 
@@ -152,7 +168,7 @@ if __name__ == '__main__':
     parser.add_argument('--img_path', help='Path to folder which contains images.', type=str, default='./images-cropped')
     parser.add_argument('--mapping_file', help='Path to save label map file.', type=str, default='label_map.pkl')
     parser.add_argument('--epoch_step_1', help='Number of epochs for training step 1.', type=int, default=30)
-    parser.add_argument('--epoch_step_2', help='Number of epochs for training step 2.', type=int, default=100)
+    parser.add_argument('--epoch_step_2', help='Number of epochs for training step 2.', type=int, default=5)
     parser.add_argument('--validation', help='Wheather to split data for validation.', type=bool, default=True)
     parser.add_argument('--step', help='Training model step (1 or 2)', type=int, default=3)
 
