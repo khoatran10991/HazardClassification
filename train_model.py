@@ -143,7 +143,8 @@ def train_model(model, baseModel, X_train, y_train, X_test=None, y_test=None, ar
         plt.xlabel("Epoch #")
         plt.ylabel("Loss/Accuracy")
         plt.legend(loc="lower left")
-        plt.savefig("plot.png")
+        plt.savefig("plot-history-model-step2.png")
+        plt.show()
     
     print("FINISH TRAINING MODEL...")
 
@@ -168,7 +169,7 @@ if __name__ == '__main__':
     parser.add_argument('--img_path', help='Path to folder which contains images.', type=str, default='./images-cropped')
     parser.add_argument('--mapping_file', help='Path to save label map file.', type=str, default='label_map.pkl')
     parser.add_argument('--epoch_step_1', help='Number of epochs for training step 1.', type=int, default=30)
-    parser.add_argument('--epoch_step_2', help='Number of epochs for training step 2.', type=int, default=5)
+    parser.add_argument('--epoch_step_2', help='Number of epochs for training step 2.', type=int, default=100)
     parser.add_argument('--validation', help='Wheather to split data for validation.', type=bool, default=True)
     parser.add_argument('--step', help='Training model step (1 or 2)', type=int, default=3)
 
