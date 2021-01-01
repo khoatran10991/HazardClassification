@@ -11,7 +11,7 @@ def augmentor(path_in, path_out):
     pipe.skew(probability=0.7)
     pipe.crop_random(probability=0.3, percentage_area=0.9)
     pipe.shear(probability=0.7, max_shear_left=5, max_shear_right=5)
-    pipe.sample(9400)
+    pipe.sample(100000)
     return
 
 def main(args=None):

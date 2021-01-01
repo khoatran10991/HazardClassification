@@ -11,3 +11,4 @@ dependencies:
   - pip:
     - efficientnet==1.1.1
     - Augmentor==0.2.8
+    - google.colab==1.0.0

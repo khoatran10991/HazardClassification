@@ -14,7 +14,7 @@ def main():
     for file in fileName:
         img = cv2.imread(os.path.join("test", file))
 
-        class_res = classifier.run(img)
+        class_res = classifier.run(image=img)
         img_out = cv2.resize(img, (round(
             img.shape[1]*0.3), round(img.shape[0]*0.3)), interpolation=cv2.INTER_AREA)
         cv2.imshow(class_res, img_out)
