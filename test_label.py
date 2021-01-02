@@ -22,10 +22,10 @@ def main():
             correct = correct + 1
         else:
             miss = miss + 1
-            # print("File:", file)
-            # print("Class_original:", class_original)
-            # print("Class_res:", class_res)
-            # print("Status: MISS")
+            print("File:", file)
+            print("Class_original:", class_original)
+            print("Class_res:", class_res)
+            print("Status: MISS")
         
     total = correct + miss
     correct = correct / total

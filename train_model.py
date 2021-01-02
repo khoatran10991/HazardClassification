@@ -37,7 +37,7 @@ def load_data(path_image):
         listPath = imagePath.split('-')
         list_image.append(imagePath)
         list_label.append(listPath[0])
-
+        
     num_img = len(list_image)
     print("Total images: %d" % num_img)
     return list_image, list_label
@@ -129,22 +129,6 @@ def train_model(model, baseModel, X_train, y_train, X_test=None, y_test=None, ar
             H = model.fit(aug_train, validation_data=aug_test, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
         else:
             H = model.fit(aug_train, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
-
-        # plot the training loss and accuracy
-        print("PLOT MODEL HISTORY...")
-        N = np.arange(0, args.epoch_step_2)
-        plt.style.use("ggplot")
-        plt.figure()
-        plt.plot(N, H.history["loss"], label="train_loss")
-        plt.plot(N, H.history["val_loss"], label="val_loss")
-        plt.plot(N, H.history["accuracy"], label="train_acc")
-        plt.plot(N, H.history["val_accuracy"], label="val_acc")
-        plt.title("Training Loss and Accuracy on Dataset")
-        plt.xlabel("Epoch #")
-        plt.ylabel("Loss/Accuracy")
-        plt.legend(loc="lower left")
-        plt.savefig("plot-history-model-step2.png")
-        plt.show()
     
     print("FINISH TRAINING MODEL...")
 
@@ -158,8 +142,11 @@ def main(args):
     baseModel, mainModel = build_model(n_classes)
     
     if (args.validation):
-        X_train, X_test, y_train, y_test = train_test_split(list_image, labels, test_size=0.2, random_state=42)
-        train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test,y_train=y_train, y_test=y_test, args=args, n_classes=n_classes)
+        for index in range(5):
+            print("RANDOM STEP ",index)
+            X_train, X_test, y_train, y_test = train_test_split(list_image, labels, test_size=0.2, random_state=42)
+            train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test,y_train=y_train, y_test=y_test, args=args, n_classes=n_classes)
+            list_image, list_label = load_data(args.img_path)
     else:
         train_model(model=mainModel, baseModel=baseModel, X_train=list_image,y_train=labels, args=args, n_classes=n_classes)
     print("FINISH MAIN CLASS TRAINING MODEL")
