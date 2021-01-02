@@ -4,6 +4,7 @@ import numpy as np
 import os
 import cv2
 from keras.applications import imagenet_utils
+from keras.applications.imagenet_utils import decode_predictions
 import pickle
 from train_model import build_model
 
@@ -16,9 +17,10 @@ class HazardClassification():
 
         _, self.model = build_model(self.num_class)
         self.model.load_weights(os.path.join(dir, 'ckpt/model_best_ckpt.h5'))
+        print("LABEL", self.label_map)
 
     def run(self, image, return_label=True):
-        image = cv2.resize(image, (64, 64), interpolation=cv2.INTER_LINEAR)
+        image = cv2.resize(image, (64, 64), interpolation=cv2.INTER_AREA)
         image = np.expand_dims(image, 0)
         image = imagenet_utils.preprocess_input(image)
 
