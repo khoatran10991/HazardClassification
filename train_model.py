@@ -17,7 +17,7 @@ from keras.layers import Dense, Dropout, Input, Flatten
 from generator import DataGenerator
 from datetime import datetime
 import matplotlib.pyplot as plt
-
+from test_model import TestModel
 
 def load_data(path_image):
     print("LOADING IMAGES...")
@@ -65,7 +65,7 @@ def encode_label(list_label, save_file):
 def build_model(num_class):
     print("BUILDING MODEL...")
     # Load model EfficientNetB2 16 của ImageNet dataset, include_top=False để bỏ phần Fully connected layer ở cuối.
-    baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(64, 64, 3))
+    baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(260, 260, 3))
 
     # Xây thêm các layer
     # Lấy output của ConvNet trong EfficientNetB2
@@ -126,9 +126,9 @@ def train_model(model, baseModel, X_train, y_train, X_test=None, y_test=None, ar
         model.compile(opt, 'categorical_crossentropy', ['accuracy'])
         if (args.validation):
             aug_test = DataGenerator(X_test, y_test, args.img_path, 3, batch_size=batch_size, n_classes=n_classes)
-            H = model.fit(aug_train, validation_data=aug_test, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
+            H = model.fit(aug_train, validation_data=aug_test, epochs=args.epoch_step_2, callbacks=[checkpoint, TestModel(),  early_stop])
         else:
-            H = model.fit(aug_train, epochs=args.epoch_step_2, callbacks=[checkpoint, early_stop])
+            H = model.fit(aug_train, epochs=args.epoch_step_2, callbacks=[checkpoint, TestModel(),  early_stop])
     
     print("FINISH TRAINING MODEL...")
 
@@ -142,11 +142,8 @@ def main(args):
     baseModel, mainModel = build_model(n_classes)
     
     if (args.validation):
-        for index in range(5):
-            print("RANDOM STEP ",index)
-            X_train, X_test, y_train, y_test = train_test_split(list_image, labels, test_size=0.2, random_state=42)
-            train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test,y_train=y_train, y_test=y_test, args=args, n_classes=n_classes)
-            list_image, list_label = load_data(args.img_path)
+        X_train, X_test, y_train, y_test = train_test_split(list_image, labels, test_size=0.2, random_state=42)
+        train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test,y_train=y_train, y_test=y_test, args=args, n_classes=n_classes)
     else:
         train_model(model=mainModel, baseModel=baseModel, X_train=list_image,y_train=labels, args=args, n_classes=n_classes)
     print("FINISH MAIN CLASS TRAINING MODEL")

@@ -13,7 +13,7 @@ class DataGenerator(Sequence):
     Sequence based data generator. Suitable for building data generator for training and prediction.
     """
     def __init__(self, list_IDs, labels, image_path, n_channels,
-                 to_fit=True, batch_size=32, dim=(64, 64), n_classes=10, shuffle=True):
+                 to_fit=True, batch_size=32, dim=(260, 260), n_classes=10, shuffle=True):
         """Initialization
         :param list_IDs: list of all iamge name
         :param labels: list of image labels (file names)
