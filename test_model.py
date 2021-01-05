@@ -31,4 +31,4 @@ class TestModel(Callback):
         total = correct + miss
         correct = correct / total
         miss = miss / total
-        print("CORRECT %f - MISS %f" %(correct, miss))
+        print("CORRECT %f - MISS %f \n" %(correct, miss))

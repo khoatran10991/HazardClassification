@@ -22,6 +22,9 @@ def main():
             correct = correct + 1
         else:
             miss = miss + 1
+            print("FILE", file)
+            print("LABEL ORIGINAL", class_original)
+            print("LABEL RES", class_res)
     total = correct + miss
     correct = correct / total
     miss = miss / total

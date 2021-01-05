@@ -6,7 +6,7 @@ import cv2
 from keras.applications import imagenet_utils
 from keras.applications.imagenet_utils import decode_predictions
 import pickle
-from keras.layers import Dense, Dropout, Input, Flatten
+from keras.layers import Dense, Dropout, Input, Flatten, BatchNormalization
 from efficientnet.keras import EfficientNetB2
 from keras.models import Model
 
@@ -50,10 +50,16 @@ class HazardClassification():
         fcHead = Flatten()(fcHead)
 
         # Thêm FC
-        fcHead = Dense(512, activation='relu')(fcHead)
+        fcHead = Dense(1024, activation='relu')(fcHead)
+        fcHead = BatchNormalization()(fcHead)
         fcHead = Dropout(0.2)(fcHead)
-        fcHead = Dense(256, activation='relu')(fcHead)
 
+        fcHead = Dense(512, activation='relu')(fcHead)
+        fcHead = BatchNormalization()(fcHead)
+        fcHead = Dropout(0.2)(fcHead)
+
+        fcHead = Dense(256, activation='relu')(fcHead)
+        fcHead = BatchNormalization()(fcHead)
         # Output layer với softmax activation
         fcHead = Dense(num_class, activation='softmax')(fcHead)
 

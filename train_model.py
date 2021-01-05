@@ -13,7 +13,7 @@ from keras.optimizers import Adam, RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.utils import to_categorical
 from keras.models import Model
-from keras.layers import Dense, Dropout, Input, Flatten
+from keras.layers import Dense, Dropout, Input, Flatten, BatchNormalization
 from generator import DataGenerator
 from datetime import datetime
 import matplotlib.pyplot as plt
@@ -75,10 +75,16 @@ def build_model(num_class):
     fcHead = Flatten()(fcHead)
 
     # Thêm FC
-    fcHead = Dense(512, activation='relu')(fcHead)
+    fcHead = Dense(1024, activation='relu')(fcHead)
+    fcHead = BatchNormalization()(fcHead)
     fcHead = Dropout(0.2)(fcHead)
-    fcHead = Dense(256, activation='relu')(fcHead)
 
+    fcHead = Dense(512, activation='relu')(fcHead)
+    fcHead = BatchNormalization()(fcHead)
+    fcHead = Dropout(0.2)(fcHead)
+    
+    fcHead = Dense(256, activation='relu')(fcHead)
+    fcHead = BatchNormalization()(fcHead)
     # Output layer với softmax activation
     fcHead = Dense(num_class, activation='softmax')(fcHead)
 
