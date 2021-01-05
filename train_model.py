@@ -65,7 +65,7 @@ def encode_label(list_label, save_file):
 def build_model(num_class):
     print("BUILDING MODEL...")
     # Load model EfficientNetB2 16 của ImageNet dataset, include_top=False để bỏ phần Fully connected layer ở cuối.
-    baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(260, 260, 3))
+    baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(64, 64, 3))
 
     # Xây thêm các layer
     # Lấy output của ConvNet trong EfficientNetB2
@@ -140,12 +140,12 @@ def main(args):
     print("NUM CLASSES", n_classes)
     print("LIST CLASSES AFTER SHUFFLE", set(list_label))
     baseModel, mainModel = build_model(n_classes)
-    
+    batch_size = args.batch_size
     if (args.validation):
         X_train, X_test, y_train, y_test = train_test_split(list_image, labels, test_size=0.2, random_state=42)
-        train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test,y_train=y_train, y_test=y_test, args=args, n_classes=n_classes)
+        train_model(model=mainModel, baseModel=baseModel, X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test, args=args, n_classes=n_classes, batch_size=batch_size)
     else:
-        train_model(model=mainModel, baseModel=baseModel, X_train=list_image,y_train=labels, args=args, n_classes=n_classes)
+        train_model(model=mainModel, baseModel=baseModel, X_train=list_image, y_train=labels, args=args, n_classes=n_classes, batch_size=batch_size)
     print("FINISH MAIN CLASS TRAINING MODEL")
 
 if __name__ == '__main__':
@@ -156,6 +156,7 @@ if __name__ == '__main__':
     parser.add_argument('--epoch_step_2', help='Number of epochs for training step 2.', type=int, default=100)
     parser.add_argument('--validation', help='Wheather to split data for validation.', type=bool, default=True)
     parser.add_argument('--step', help='Training model step (1 or 2)', type=int, default=3)
+    parser.add_argument('--batch_size', help='Number of batch size for training', type=int, default=32)
 
     args = parser.parse_args()
     main(args)

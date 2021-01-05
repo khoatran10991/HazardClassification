@@ -22,7 +22,7 @@ class HazardClassification():
         print("LABEL", self.label_map)
 
     def run(self, image, return_label=True):
-        image = cv2.resize(image, (260, 260), interpolation=cv2.INTER_AREA)
+        image = cv2.resize(image, (64, 64), interpolation=cv2.INTER_AREA)
         image = np.expand_dims(image, 0)
         image = imagenet_utils.preprocess_input(image)
 
@@ -40,7 +40,7 @@ class HazardClassification():
     def build_model(self, num_class):
         print("BUILDING MODEL TESTING...")
         # Load model EfficientNetB2 16 của ImageNet dataset, include_top=False để bỏ phần Fully connected layer ở cuối.
-        baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(260, 260, 3))
+        baseModel = EfficientNetB2(weights='imagenet', include_top=False, input_shape=(64, 64, 3))
 
         # Xây thêm các layer
         # Lấy output của ConvNet trong EfficientNetB2
